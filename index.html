@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-light bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo-2.png" alt="" class="w-60">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Agents</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Property
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Questions</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link btn text-white bg-dark px-3 rounded-0" href="#">Contact Us</a>
+              </li> -->
+              <div class="outer-box">
+                <div class="btn-box">
+                    <a href="" class="theme-btn btn-style-one"   data-bs-toggle="modal" data-bs-target="#exampleModal" >submit property</a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+              <!-- <li class="nav-item"> -->
+
+              
+
+<!-- </li> -->
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+              
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            <!-- </form> -->
+
+            
+          </div>
+
+          
+        </div>
+
+
+
+
+        
+      </nav>
+
+
+
+<!-- end nav -->
+
+<!-- carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/home6.jpg" class="d-block w-100-height" alt="img1">
+        <div class="carousel-caption carousel1">
+            <p>1 / 3</p>
+            <h5>Discover Property <br> More Easily</h5>
+            <div class="mt-5 d-flex">
+                <input type="text" class="form-control search w-50 rounded-0" id="floatinginput"
+                placeholder="Search....">
+                <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3 rounded-0">
+                    <i class="fas fa-search"></i>Search</button>
+            </div>
+        </div>
+      </div>
+
+      <div class="carousel-item ">
+        <img src="images/home7.jpg" class="d-block w-100-height" alt="img1">
+        <div class="carousel-caption carousel1">
+            <p>2 / 3</p>
+            <h5>Global Homes <br> For Our Future <br> Generation</h5>
+            <p><a href="#" class="btn btn-light btn-lg mt-3 rounded-0">Discover More</a></p>
+            <!-- <div class="mt-5 d-flex">
+                <input type="text" class="form-control search w-50 rounded-0" id="floatinginput"
+                placeholder="Search....">
+                <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3 rounded-0">
+                    <i class="fas fa-search"></i>Search</button>
+            </div> -->
+        </div>
+      </div>
+
+      <div class="carousel-item ">
+        <img src="images/home8.jpg" class="d-block w-100-height" alt="img1">
+        <div class="carousel-caption carousel1">
+            <p>3 / 3</p>
+            <h5>Property Buying <br> and Selling <br> Guides</h5>
+            <p><a href="#" class="btn btn-light btn-lg mt-3 rounded-0">Discover More</a></p>
+            <!-- <div class="mt-5 d-flex">
+                <input type="text" class="form-control search w-50 rounded-0" id="floatinginput"
+                placeholder="Search....">
+                <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3 rounded-0">
+                    <i class="fas fa-search"></i>Search</button>
+            </div> -->
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="icon">&larr;</span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="icon">&rarr;</span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+    <!-- <div class="col-md-4 z-1 position-absolute card-bottom card mb-3 card-color rounded-0 "
+         style="background: #000;" >
+        <div class="row align-items-center">
+
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title text-light">Card title</h5>
+              <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-white">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+            <div class="col-md-3">
+                <img src="images/project-3.jpg" class="img-fluid rounded-start" alt="card-img">
+              </div>
+          </div>
+    </div> -->
+</div>
+  </div>
+
+
+
+
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Basic Info</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Property Title</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Property Title">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Area</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="SqFt">
+          </div>
+
+          <!-- <select class="form-select" aria-label="Default select example">
+            <option selected>Property Type</option>
+            <option value="1">Residential</option>
+            <option value="2">Commercial</option>
+            <option value="3">Apartments</option>
+          </select> -->
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label" >Address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Address">
+          </div>
+
+          <select class="form-select" aria-label="Default select example " style="margin-top: 37px;">
+            <option selected>State</option>
+            <option value="1">Residential</option>
+            <option value="2">Commercial</option>
+            <option value="3">Apartments</option>
+          </select>
+        
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <div class="outer-box">
+            <div class="btn-box">
+                <a href="" class="theme-btn btn-style-one rounded"    >submit property</a>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- end carousel -->
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6"> <img src="images/home6.jpg" class="img-responsive" alt=""> </div>
+        <div class="col-xs-12 col-md-6 ">
+          <div class="about-text">
+            <h2>Who We Are</h2>
+            <p><i class="fa-solid fa-wand-sparkles"></i>  We are Offering the Best Real Estate Deals
+                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. <br> <br><i class="fa-solid fa-wand-sparkles"></i>  Our company offers you the best design solutions to make your home interior unique and stylish</p>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+
+  <!-- question -->
+  <section class="about section-padding" style="margin-top: 100px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-12 mt-md-3">
+                <div class="about-text">
+                    <p class="faq">Questions</p>
+                    <h2>Frequently Asked <br> Questions</h2>
+                    <p>Real estate is an industry that’s got a lot of complex details to cover. Real estate agents and agencies exist for several reasons, but namely to assist people through the process of buying or selling property so that they don’t have to do it alone.</p>
+                    <div class=" see2">
+                      <div class="btn-box">
+                          <a href="" class="theme-btn btn-style-one"   data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">See More</a>
+                      </div>
+                  </div>
+
+                </div>
+
+            </div>
+            <!-- accordion -->
+            <div class="accordion col-lg-7 mt-3 mt-md-3" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <i class="fa-solid fa-circle-question"></i> &nbsp;  Why do I need a real estate agent?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Notice that we don’t ask “do I”, but “Why do I”. This leaves people no out. Even phrasing the question this way reassures people that this is a service that they need. Now is your chance to elaborate on the why by pointing out all of the things that you do. Namely, focus on how buying and selling properties is your job and you’ve been doing it for years.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <i class="fa-solid fa-circle-question"></i> &nbsp;  How long will it take to sell my property?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      This is often an impossible question to answer, and yet people ask it all the time. They want to know how long they have to wait to move, or how quickly they’ll expect to get their money so that they can pay off their mortgage and start the process of buying a new home.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <i class="fa-solid fa-circle-question"></i> &nbsp;   How much commission do you charge?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Another question everyone wants to know is what you’re going to charge them. You can feel free to tell them what your commission rate is for being a seller’s agent and a buyer’s agent, and then disclose if there are any discounts, special considerations, or other factors that may affect that rate.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingfour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                      <i class="fa-solid fa-circle-question"></i> &nbsp;  What is the selling/buying process like?
+                    </button>
+                  </h2>
+                  <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      There’s a lot of stress in buying and selling homes, and especially for those who are doing it for the first time. When you answer this question, provide as much insight as you can about how it works. You can even create separate questions for each side of the process if you work as both a buyer’s agent and a seller’s agent.
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingfive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                      <i class="fa-solid fa-circle-question"></i> &nbsp;   How do I know what I can spend on a home purchase?
+                    </button>
+                  </h2>
+                  <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Those who are doing it the right way will want to be able to set a budget for home shopping before they begin. Unfortunately, not everyone knows what they can afford, or what they should be willing, to spend on a house. Some experts tell people their mortgage should be 1/3 of their salary or less. Others say you can spend up to half. 
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- /////////////////////////////////////////////////////////// -->
+<div class="mixitup-gallery" style="margin-top: 77px;">
+  <div class="upper-box clearfix">
+      <div class="sec-title">
+          <span class="title">FIND YOUR HOUSE IN YOUR CITY</span>
+          <h2>PROPERTY TYPES</h2>
+      </div>
+
+      <!--Filter-->
+      <div class="filters">
+          <ul class="filter-tabs filter-btns clearfix">
+              <li class="filter active" data-role="button" data-filter="all">All</li>
+              <li class="filter" data-role="button" data-filter=".sale">For Sale</li>
+              <li class="filter" data-role="button" data-filter=".rent">For Rent</li>
+          </ul>                                    
+      </div>
+  </div>
+
+  <div class="filter-list row" id="MixItUp5A7A5F">
+      <!-- Property Block -->
+      <div class="property-block all mix sale col-lg-4 col-md-6 col-sm-12" style="display: inline-block;">
+          <div class="inner-box">
+              <div class="image-box">
+                  <figure class="image"><img src="images/property-1.jpg" alt=""></figure>
+                  <span class="for">FOR SALE</span>
+                  <span class="featured">FEATURED</span>
+                  <ul class="info clearfix">
+                      <li><i class="fa-regular fa-calendar"></i>2 Years Ago</li>
+                  </ul>
+              </div>
+              <div class="lower-content">
+                  <ul class="tags">
+                      <li><a href="#">Apartment</a>,</li>
+                      <li><a href="#">Modern Villa</a></li>
+                  </ul>
+                  <div class="thumb"><img src="images/thumb-8.jpg" alt=""></div>
+                  <h3><a href="#">Modern Apartment in City Center</a></h3>
+                  <div class="lucation"><i class="fa-solid fa-location-dot"></i> 121, King St, VIC 3000, New York, United States</div>
+                  <ul class="property-info clearfix">
+                      <li><i class="fa-solid fa-money-check-dollar"></i>$ 1,51,000</li>
+                      <li><i class="fa-solid fa-bed"></i> 4 Bedrooms</li>
+                      <li><i class="fa-solid fa-car-side"></i> 2 Garage</li>
+                      <li><i class="fa-solid fa-bath"></i> 3 Bathroom</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <!-- Property Block -->
+      <div class="property-block all mix rent col-lg-4 col-md-6 col-sm-12" style="display: inline-block;">
+          <div class="inner-box">
+              <div class="image-box">
+                  <figure class="image"><img src="images/property-2.jpg" alt=""></figure>
+                  <span class="for">FOR RENT</span>
+
+
+                  <ul class="info clearfix">
+                      <li><i class="fa-regular fa-calendar"></i>2 Years Ago</li>
+                  </ul>
+              </div>
+              <div class="lower-content">
+                  <ul class="tags">
+                      <li><a href="#">Apartment</a>,</li>
+                      <li><a href="#">Family House</a></li>                               
+                  </ul>
+                  <div class="thumb"><img src="images/thumb-8.jpg" alt=""></div>
+                  <h3><a href="#">Apartment Morden 1243, W No...</a></h3>
+                  <div class="lucation"><i class="fa-solid fa-location-dot"></i> 121, King St, VIC 3000, New York, United States</div>
+                  <ul class="property-info clearfix">
+                      <li><i class="fa-solid fa-money-check-dollar"></i> $ 1300 / Mo</li>
+                      <li><i class="fa-solid fa-bed"></i>4 Bedrooms</li>
+                      <li><i class="fa-solid fa-car-side"></i>2 Garage</li>
+                      <li><i class="fa-solid fa-bath"></i> 3 Bathroom</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <!-- Property Block -->
+      <div class="property-block all mix sale col-lg-4 col-md-6 col-sm-12" style="display: inline-block;">
+          <div class="inner-box">
+              <div class="image-box">
+                  <figure class="image"><img src="images/property-4.jpg" alt=""></figure>
+                  <span class="for">FOR SALE</span>
+                  <span class="featured">FEATURED</span>
+
+                  <ul class="info clearfix">
+                      <li><i class="fa-regular fa-calendar"></i>2 Years Ago</li>
+                  </ul>
+              </div>
+              <div class="lower-content">
+                  <ul class="tags">
+                      <li><a href="#">Apartment</a>,</li>
+                      <li><a href="#">Town House</a></li>
+                  </ul>
+                  <div class="thumb"><img src="images/thumb-8.jpg" alt=""></div>
+                  <h3><a href="#">Great Home for Single family</a></h3>
+                  <div class="lucation"><i class="fa-solid fa-location-dot"></i> 121, King St, VIC 3000, New York, United States</div>
+                  <ul class="property-info clearfix">
+                      <li><i class="fa-solid fa-money-check-dollar"></i>$ 2,56,000</li>
+                      <li><i class="fa-solid fa-bed"></i> 4 Bedrooms</li>
+                      <li><i class="fa-solid fa-car-side"></i> 2 Garage</li>
+                      <li><i class="fa-solid fa-bath"></i> 3 Bathroom</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <!-- Property Block -->
+      <div class="property-block all mix rent col-lg-4 col-md-6 col-sm-12" style="display: inline-block;">
+          <div class="inner-box">
+              <div class="image-box">
+                  <figure class="image"><img src="images/property-5.jpg" alt=""></figure>
+                  <span class="for">FOR RENT</span>
+
+
+                  <ul class="info clearfix">
+                      <li><i class="fa-regular fa-calendar"></i>2 Years Ago</li>
+                  </ul>
+              </div>
+              <div class="lower-content">
+                  <ul class="tags">
+                      <li><a href="#">Family House</a>,</li>
+                      <li><a href="#">Condo</a></li>
+                  </ul>
+                  <div class="thumb"><img src="images/thumb-8.jpg" alt=""></div>
+                  <h3><a href="#">Royal Town House With Pool</a></h3>
+                  <div class="lucation"><i class="fa-solid fa-location-dot"></i> 121, King St, VIC 3000, New York, United States</div>
+                  <ul class="property-info clearfix">
+                      <li><i class="fa-solid fa-money-check-dollar"></i> $ 2200 / Mo</li>
+                      <li><i class="fa-solid fa-bed"></i> 4 Bedrooms</li>
+                      <li><i class="fa-solid fa-car-side"></i>2 Garage</li>
+                      <li><i class="fa-solid fa-bath"></i> 3 Bathroom</li>
+                  </ul>
+                  
+              </div>
+          </div>
+      </div>
+
+      <!-- Property Block -->
+      <div class="property-block all mix sale col-lg-4 col-md-6 col-sm-12" style="display: inline-block;">
+          <div class="inner-box">
+              <div class="image-box">
+                  <figure class="image"><img src="images/property-1.jpg" alt=""></figure>
+                  <span class="for">FOR SALE</span>
+                  <span class="featured">FEATURED</span>
+
+                  <ul class="info clearfix">
+                      <li><i class="fa-regular fa-calendar"></i>2 Years Ago</li>
+                  </ul>
+              </div>
+              <div class="lower-content">
+                  <ul class="tags">
+                      <li><a href="#">Apartment</a>,</li>
+                      <li><a href="#">Town House</a>,</li>
+                  </ul>
+                  <div class="thumb"><img src="images/thumb-8.jpg" alt=""></div>
+                  <h3><a href="#">Apartment Morden 1243, W No...</a></h3>
+                  <div class="lucation"><i class="fa-solid fa-location-dot"></i> 121, King St, VIC 3000, New York, United States</div>
+                  <ul class="property-info clearfix">
+                      <li><i class="fa-solid fa-money-check-dollar"></i> $ 57,000</li>
+                      <li><i class="fa-solid fa-bed"></i> 4 Bedrooms</li>
+                      <li><i class="fa-solid fa-car-side"></i> 2 Garage</li>
+                      <li><i class="fa-solid fa-bath"></i> 3 Bathroom</li>
+                  </ul>
+                  
+              </div>
+          </div>
+      </div>
+
+      <!-- Property Block -->
+      <div class="property-block all mix sale col-lg-4 col-md-6 col-sm-12" style="display: inline-block;">
+          <div class="inner-box">
+              <div class="image-box">
+                  <figure class="image"><img src="images/property-4.jpg" alt=""></figure>
+                  <span class="for">FOR SALE</span>
+                  <span class="featured">FEATURED</span>
+
+                  <ul class="info clearfix">
+                      <li><i class="fa-regular fa-calendar"></i>2 Years Ago</li>
+                  </ul>
+              </div>
+              <div class="lower-content">
+                  <ul class="tags">
+                      <li><a href="#">Apartment</a>,</li>
+                      <li><a href="#">House</a></li>
+                  </ul>
+                  <div class="thumb"><img src="images/thumb-8.jpg" alt=""></div>
+                  <h3><a href="#">Great Home for Single family</a></h3>
+                  <div class="lucation"><i class="fa-solid fa-location-dot"></i> 121, King St, VIC 3000, New York, United States</div>
+                  <ul class="property-info clearfix">
+                      <li><i class="fa-solid fa-money-check-dollar"></i>$ 75, 500</li>
+                      <li><i class="fa-solid fa-bed"></i> 4 Bedrooms</li>
+                      <li><i class="fa-solid fa-car-side"></i> 2 Garage</li>
+                      <li><i class="fa-solid fa-bath"></i> 3 Bathroom</li>
+                  </ul>
+                  
+              </div>
+          </div>
+      </div>
+
+  </div>
+
+  <!-- Load More -->
+  <div class="see">
+    <div class="btn-box">
+        <a href="" class="theme-btn btn-style-two"   data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Load More</a>
+    </div>
+</div>
+</div>
+<!-- ////////////////////////////////////////////////// -->
+<section class="fun-facts-section" style="background-image:url(images/6.jpg);">
+  <div class="auto-container">
+
+      <div class="fun-facts">
+         <div class="row clearfix">
+             <!--Column-->
+             <div class="column count-box col-lg-3 col-md-6 col-sm-12 counted">
+              <div class="content">
+                  <div class="icon-box"><i class="fas fa-home"></i></div>
+                  <div class="count-outer count-box counted">
+                      <span class="count-text" data-speed="3000" data-stop="300">300</span>
+                  </div>
+                  <div class="counter-title">Sold Houses</div>
+              </div>
+          </div>
+
+
+          <!--Column-->
+          <div class="column count-box col-lg-3 col-md-6 col-sm-12 counted">
+              <div class="content">
+                  <div class="icon-box"><i class="fa-regular fa-rectangle-list"></i></div>
+                  <div class="count-outer count-box counted">
+                      <span class="count-text" data-speed="2000" data-stop="470">470</span>
+                  </div>
+                  <div class="counter-title">Daily Listings</div>
+              </div>
+          </div>
+
+
+          <!--Column-->
+          <div class="column count-box col-lg-3 col-md-6 col-sm-12 counted">
+              <div class="content">
+                  <div class="icon-box"><i class="fa-solid fa-user-secret"></i></div>
+                  <div class="count-outer count-box counted">
+                      <span class="count-text" data-speed="2000" data-stop="250">250</span>
+                  </div>
+                  <div class="counter-title">Expert Agents</div>
+              </div>
+          </div>
+
+          <!--Column-->
+          <div class="column count-box col-lg-3 col-md-6 col-sm-12 counted">
+              <div class="content">
+                  <div class="icon-box"><i class="fa-solid fa-trophy"></i></div>
+                  <div class="count-outer count-box counted">
+                      <span class="count-text" data-speed="3000" data-stop="200">200</span>
+                  </div>
+                  <div class="counter-title">Won Awards</div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+<!-- //////////////////////////////////////////////////////////////////////// -->
+ <!-- <div class="container text-center py-5">
+  <h3>Building Team</h3>
+  <h4 class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+  <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+    <div class="col">
+      <div class="card">
+        <img src="images/women1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">lena mahmed</h5>
+          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, neque?</p>
+        </div>
+
+        <div class="d-flex justify-content-evenly p-4">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-regular fa-envelope"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/man2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">shahd ahmed</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, laudantium.</p>
+        </div>
+        <div class="d-flex justify-content-evenly p-4">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-regular fa-envelope"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/zft.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">mohamed atef</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, voluptates.</p>
+        </div>
+        <div class="d-flex justify-content-evenly p-4">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-regular fa-envelope"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+ </div> -->
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="section-team  " style="margin-bottom: 100px;">
+  <div class="frnt4r col-12" style="display: block;">
+    <h2 class="frnt4">Real Estate Agents</h2><br>
+    <p class="passage">STATELY is committed to delivering a high level of expertise, customer service, and <br> attention  to detail to  the marketing and sales of luxury real estate, and rental <br> properties.</p><br><br><br>
+</div>
+
+<div class="card ">
+  <div class="circle">
+    <div class="imfbox">
+      <img src="images/women1.jpg" alt="">
+    </div>
+  </div>
+  <div class="content">
+    <a href="#">
+      <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-regular fa-envelope"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+    <h3>Olivia Evia</h3>
+    <div class="text-icon">
+      <h5>sales executive</h5>
+      <a href="#">
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="circle">
+    <div class="imfbox">
+      <img src="images/women2.jpg" alt="">
+    </div>
+  </div>
+  <div class="content">
+    <a href="#">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-regular fa-envelope"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+    <h3>Lily Bicharm</h3>
+    <div class="text-icon">
+      <h5>Realtor, Agency</h5>
+      <a href="#">
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="circle">
+    <div class="imfbox">
+      <img src="images/man1.jpg" alt="">
+    </div>
+  </div>
+  <div class="content">
+    <a href="#">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-regular fa-envelope"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+   
+
+    </a>
+    <h3>John Doe</h3>
+    <div class="text-icon">
+      <h5>Commercial Broker </h5>
+      <a href="#">
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ///////////img/text///////////////////////////// -->
+
+<!-- <div class="containerr"> -->
+  <!-- <div class="frnt4r col-12" style="display: block; text-align: start;">
+    <h2 class="frnt4">Featured Properties</h2><br>
+    <p class="passage">Here are four listings that are displayed using the featured property shorcode. <br> Use this shortcode when you have some special listings to showcase.</p><br><br><br>
+</div> -->
+<div class="angled" style="margin-top: 200px;">
+  
+  <div class="textt">
+    <small>SELL YOUR HOME</small>
+    <h3>The Fastest sold
+      Houses on The Market</h3>
+    <P>Highlight the best of your properties by using the List Category shortcode. You can list categories, types, cities, areas and states of your choice.</P>
+    <a href="#">READ MORE &rarr;</a> 
+  </div>
+  <div class="image-angled">
+    <div><img src="images/blue3-1-525x328.png" alt="">
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="angled angled-left">
+  <div class="image-angled">
+
+ 
+ <div>
+  <img src="images/blue7.png" alt="">
+</div>
+
+</div>
+<div class="textt">
+  <small>CLOSE THE DEAL FAST</small>
+  <h3>Real Estate with
+    Passion Since 1924</h3>
+  <P>Our distinctive buildings fill the skyline and streetscapes of the city. Conceived with innovative design and exceptional amenities.</P>
+  <a href="#">READ MORE &rarr;</a> 
+</div>
+</div>
+
+
+<div class="angled">
+  <div class="textt">
+    <small>CLOSE THE DEAL FAST</small>
+    <h3>Our Clients
+      Always Come First</h3>
+    <P>We're different because we have years of experience and our approach is to work directly with our clients for everything we develop</P>
+    <a href="#">READ MORE &rarr;</a> 
+  </div>
+  <div class="image-angled">
+    <div><img src="images/blue5-1.png" alt="">
+    </div>
+  </div>
+
+</div>
+
+
+<!-- ///////////social mediaaa33/////////////////// -->
+
+<div class="container" >
+  <h1>Property Types.</h1>
+  <div class="  roww">
+    <div class="services">
+     <img src="images/2.png" alt="">
+      <h2>Apartment</h2>
+      <p>Teichstr., Holzminden, Lower Saxony </p>
+    </div>
+
+   
+
+    <div class="services">
+     <img src="images/6.png" alt="">
+      <h2>Town House</h2>
+      <p>Upper Grosvenor Street, London, W1K</p>
+    </div>
+
+
+    <div class="services">
+      <img src="images/5.png" alt="">
+      <h2>Studio</h2>
+      <p>13555 S Wentworth Ave, Riverdale, IL 60827, USA </p>
+    </div>
+
+    <div class="services">
+     <img src="images/3 (1).png" alt="">
+      <h2> Villa</h2>
+      <p>4936 N Broadway, Chicago, IL 60640, USA </p>
+    </div>
+
+    <div class="services">
+     <img src="images/1.png" alt="">
+      <h2>Single Family</h2>
+      <p>7952 S Ashland Ave, Chicago, IL 60620, USA</p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- //////////////////////////////////////////////footerr///////////// -->
+<footer class="main-footer" style="background-image: url(images/footer.jpg);">
+  <div class="auto-container">
+      <div class="upper-box">
+          <div class="row">
+              <!-- Upper column -->
+              <div class="upper-column col-lg-3 col-md-12 col-sm-12">
+                  <div class="footer-logo">
+                      <figure class="image"><a href="#"><img src="images/logo-2.png" alt=""></a></figure>
+                  </div>
+              </div>
+
+              <!-- Upper column -->
+              <div class="upper-column col-lg-6 col-md-12 col-sm-12">
+                  <div class="subscribe-form">
+                      <form method="post" action="#">
+                          <div class="form-group">
+                              <input type="email" name="email" value="" placeholder="Enter Your Email" required="">
+                              <button type="submit" class="theme-btn btn-style-four">Submit</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+
+              <!-- Upper column -->
+              <div class="upper-column col-lg-3 col-md-12 col-sm-12">
+                  <div class="social-links">
+                      <ul class="social-icon-two">
+                          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-google-plus"></i></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                          <!-- <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li> -->
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!--Widgets Section-->
+      <div class="widgets-section">
+          <div class="row">
+              <!--Big Column-->
+              <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                  <div class="row">
+                      <!--Footer Column-->
+                      <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                          <div class="footer-widget">
+                              <h2 class="widget-title">About Us</h2>
+                              <p>Our mission is to redefine real estate in the customer's favor. <br>We have been advising on buying, selling and renting property for over 160 years, from country cottages to city centre offices, agricultural land to new-build developments.</p>
+                          </div>
+                      </div>
+
+                      <!--Footer Column-->
+                      <div class="footer-column col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                          <div class="footer-widget links-widget">
+                              <h2 class="widget-title">Services</h2>
+                              <div class="widget-content">
+                                  <ul class="list clearfix">
+                                      <li><a href="#"> &nbsp;Browse All Places</a></li>
+                                      <li><a href="#">Browse all Categories</a></li>
+                                      <li><a href="#">FAQ &amp; Support</a></li>
+                                      <li><a href="#">Terms of use</a></li>
+                                      <li><a href="#">Privacy Policy</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+
+              <!--Big Column-->
+              <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                  <div class="row clearfix">
+                      <div class="footer-column col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                          <!--Footer Column-->
+                          <div class="footer-widget popular-posts">
+                              <h2 class="widget-title">Popular Posts</h2>
+                              <!--Footer Column-->
+                              <div class="widget-content">
+                                  <div class="post">
+                                      <div class="thumb"><a href="#"><img src="images/blue5-1.png" alt=""></a></div>
+                                      <h4><a href="#">Modern Design Building </a></h4>
+                                      <span class="date">1 March, 2020</span>
+                                  </div>
+
+                                  <div class="post">
+                                      <div class="thumb"><a href="#"><img src="images/blue7.png" alt=""></a></div>
+                                      <h4><a href="#">Real Estate Expo 2020</a></h4>
+                                      <span class="date">10 March, 2020</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <!--Footer Column-->
+                      <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                          <div class="footer-widget contact-widget">
+                              <h2 class="widget-title">Get in Touch</h2>
+                              <div class="widget-content">
+                                  <ul class="contact-list">
+                                      <li><span class="la la-map-marker"><i class="fa-solid fa-location-dot"></i></span> 121, King St, VIC 3000, <br>NY. United States Of America.</li>
+                                      <li><span class="la la-phone"><i class="fa-solid fa-phone"></i></span>(001) 123456 - (002) 1234567</li>
+                                      <li><span class="la la-envelope"><i class="fa-regular fa-envelope"></i></span><a href="#">info@example.com</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!--Footer Bottom-->
+  <div class="footer-bottom">
+      <div class="auto-container">
+
+
+          <div class="inner-container clearfix">
+           <div class="copyright-text">
+              <p>Copyright © 2023.💎 All rights reserved.</p>
+          </div>
+      </div>
+  </div>
+</div>
+</footer>
+
+</div>
+
+
+
+
+
+
+
+<!-- 
+<script >
+var myModal = document.getElementById('myModal')
+  var myInput = document.getElementById('myInput')
+  
+  myModal.addEventListener('shown.bs.modal', function () {
+    myInput.focus()
+  })</script> -->
+
+
+
+  
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
